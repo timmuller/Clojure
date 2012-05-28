@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tentamenresultaten>
+  <resultaat>
+    <naam>Piet</naam>
+    <cijfer>7</cijfer>
+  </resultaat>
+  <resultaat>
+    <naam>Klaas</naam>
+    <cijfer>10</cijfer>
+  </resultaat>
+</tentamenresultaten>
