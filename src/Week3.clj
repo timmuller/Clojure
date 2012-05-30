@@ -62,5 +62,21 @@
 ;   )
 ; )
 
+; b
+; (defn divisible-by-three? [x]
+;    (for [i x]
+;      (if (zero? (rem i 3))
+;        i
+;      )
+;    )
+; )
+; (divisible-by-three? (range 20))
+
+;c
+; (defn divisible-by-three? [x]
+;   (filter #(zero? (rem % 3)) x)
+; )
+; (divisible-by-three? (range 20))
+
 
 

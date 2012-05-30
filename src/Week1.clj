@@ -36,6 +36,7 @@
 ; Vraag 8
 ; [x 8 y 1 z 2]
 
+; todo
 ; Vraag 9
 ; (defn hello [name]
 ;   (str "hello " name)
