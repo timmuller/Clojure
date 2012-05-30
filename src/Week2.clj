@@ -1,7 +1,7 @@
 (ns Week2)
 
 ; Vraag 1
-; TODO, Onduidelijk hoe de array uit elkaar getrokken moet worden. Max return de gehele array
+; (apply max [1 2 3 4 5])
 
 ; Vraag 2
 ; 12 voor alle 3 de functies
@@ -26,16 +26,12 @@
 ;   )
 ; ) "banaan" "appel")
 ;
-; Via loop is met niet gelukt. Ben zover gekomen =
-; (loop [counter 10 iterator 0]
-;   (if (< counter iterator)
-;     (println "end")
-;     (recur (- counter 1)(+ iterator 1))
-;   )
+; (loop [i 0]
+;   (if (= i 10)
+;     nil
+;     (do (println i) (recur (+ i 1)))
+;   ) 
 ; )
-; Probleem : Krijg maar 1 uitput. Er wordt niet iets uitgeprint als er overheen geloopt wordt. Maar pas als de gehele loop afgelopen is.
-; Wat wel kan is het volgende:
-; (dotimes [i 10] (println i))
 
 ; Vraag 5
 ;(defn not-zero? [x]
